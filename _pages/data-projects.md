@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Data Projects"
 permalink: /data-projects/
 author_profile: true
 ---
