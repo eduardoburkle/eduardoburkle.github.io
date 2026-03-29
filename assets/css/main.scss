@@ -8,6 +8,8 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+$footer-background-color: #f2f2f2; // Change this to any hex code you want (e.g., #000000 for black)
+
 @import
     "vendor/breakpoint/breakpoint",
 
