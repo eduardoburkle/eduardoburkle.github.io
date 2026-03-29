@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Talks and presentations"
-permalink: /Data Project/
+permalink: /data-projects/
 author_profile: true
 ---
 
