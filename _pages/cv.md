@@ -5,5 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-
-You can download my cv here:
+You can download my cv using this link!
