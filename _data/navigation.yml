@@ -15,7 +15,7 @@ main:
     url: /teaching/    
 
   - title: "CV"
-    url: /cvburkle/
+    url: /cv/
 
   - title: "Data Projects"
     url: /data-projects/ 
