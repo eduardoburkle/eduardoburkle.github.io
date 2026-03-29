@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 2"
+title: "GLOBIS Human Rights Lab"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+type: "Teaching Assistant"
+permalink: /teaching/HRLab
+venue: "University of Georgia"
 date: 2015-01-01
 location: "City, Country"
 ---
