@@ -82,32 +82,12 @@ footer.page__footer p {
   display: none !important;
 }
 
-/* --- CENTERED & UNCLIPPED AVATAR --- */
-.author__avatar {
-  display: block !important;
-  text-align: center !important; /* Centers the image inside the sidebar */
-  width: 100% !important;
-  padding: 10px 0 !important;   /* Space to prevent clipping top/bottom */
-  overflow: visible !important;
-}
-
-.author__avatar img {
-  display: inline-block !important; /* Allows text-align to work */
-  margin: 0 auto !important;        /* Horizontal centering */
+/* --- FORCE PICTURE ROUND --- */
+.author__avatar img, 
+.author__avatar, 
+#author__avatar {
   border-radius: 50% !important;
-  border: 3px solid #BA0C2F !important;
-  
-  /* Size adjustment to stay within the sidebar width */
-  max-width: 160px !important;      /* Fixed size is often safer for alignment */
-  height: 160px !important;
+  overflow: hidden !important; /* This clips the square corners off */
   object-fit: cover !important;
-  
-  /* The "Magic" fix for the red border clipping */
-  box-sizing: border-box !important; 
-}
-
-/* Force the Author Name and Bio to center-align as well */
-.author__content, .author__name, .author__bio {
-  text-align: center !important;
-  width: 100% !important;
+  border: 3px solid #BA0C2F !important;
 }
