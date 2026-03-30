@@ -10,15 +10,11 @@
 main:
   - title: "Research"
     url: /research/
-
   - title: "Teaching"
-    url: /teaching/    
-
+    url: /teaching/
   - title: "Data Projects"
-    url: /data-projects/ 
-
-   - title: "CV"
+    url: /data-projects/
+  - title: "CV"
     url: /cv/
-    
   - title: "Contact"
-    url: /contact/ 
+    url: /contact/
