@@ -82,12 +82,26 @@ footer.page__footer p {
   display: none !important;
 }
 
-/* --- FORCE ROUND AVATAR --- */
+/* --- FIX CLIPPED ROUND AVATAR --- */
 .author__avatar img {
+  display: block !important;
+  margin: 10px auto !important; /* Adds space above/below to stop clipping */
   border-radius: 50% !important;
-  clip-path: circle(50% at 50% 50%) !important; /* This cuts the image into a circle */
-  -webkit-clip-path: circle(50% at 50% 50%) !important;
-  width: 200px !important; /* Adjust size if needed */
-  height: 200px !important;
+  border: 3px solid #BA0C2F !important; /* UGA Red */
+  
+  /* Sizing down slightly to fit the container */
+  width: 92% !important; 
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  
+  /* Ensure the circle is clean */
   object-fit: cover !important;
+  overflow: visible !important; 
+  box-sizing: border-box !important;
+}
+
+/* Ensure the parent container doesn't chop off the border */
+.author__avatar {
+  overflow: visible !important;
+  display: block !important;
 }
