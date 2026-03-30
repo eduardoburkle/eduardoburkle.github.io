@@ -6,14 +6,16 @@
  *
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+I`ve deleted dark mode:    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
  */
+
 
 @import
     "vendor/breakpoint/breakpoint",
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    #"theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+ 
 
     "include/mixins",
     "vendor/susy/susy",
@@ -41,3 +43,26 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* --- DISABLE DARK MODE & SWITCH --- */
+.theme-switch, 
+.greedy-nav__toggle, 
+#theme-toggle {
+  display: none !important;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* --- MAKE PICTURE ROUND --- */
+.author__avatar img {
+  border-radius: 50% !important;
+  border: 3px solid #BA0C2F !important;
+}
+
+/* --- HIDE SITEMAP & FEED --- */
+.page__footer-follow {
+  display: none !important;
+}
