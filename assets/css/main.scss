@@ -72,4 +72,12 @@ body {
   display: none !important;
 }
 
-
+/* --- FORCE PICTURE ROUND --- */
+.author__avatar img, 
+.author__avatar, 
+#author__avatar {
+  border-radius: 50% !important;
+  overflow: hidden !important; /* This clips the square corners off */
+  object-fit: cover !important;
+  border: 3px solid #BA0C2F !important;
+}
