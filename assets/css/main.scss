@@ -67,17 +67,27 @@ body {
   display: none !important;
 }
 
-/* --- HIDE SITEMAP SPECIFICALLY --- */
-.page__footer-follow li a[href*="sitemap"] {
+
+/* --- ABSOLUTE FOOTER CLEANUP --- */
+footer.page__footer .page__footer-follow,
+footer.page__footer ul.social-icons,
+footer.page__footer p {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* This targets the specific "Follow" section header and links */
+.page__footer-follow-header, 
+.page__footer-follow li {
   display: none !important;
 }
 
-/* --- FORCE PICTURE ROUND --- */
-.author__avatar img, 
-.author__avatar, 
-#author__avatar {
+/* --- FORCE ROUND AVATAR --- */
+.author__avatar img {
   border-radius: 50% !important;
-  overflow: hidden !important; /* This clips the square corners off */
+  clip-path: circle(50% at 50% 50%) !important; /* This cuts the image into a circle */
+  -webkit-clip-path: circle(50% at 50% 50%) !important;
+  width: 200px !important; /* Adjust size if needed */
+  height: 200px !important;
   object-fit: cover !important;
-  border: 3px solid #BA0C2F !important;
 }
