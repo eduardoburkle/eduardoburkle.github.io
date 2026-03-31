@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Eduardo Burkle is a Ph.D. candidate at the University of Georgia. His research interests include human rights, political violence, peacekeeping, and transitional justice. Eduardo is also part of the Human Rights Measurement Initiative (HRMI), where he focuses on measurement questions in political science and works with a team that produces annual data on civil and political rights.
+Welcome! I am a Ph.D. candidate at the University of Georgia. My research interests include human rights, political violence, peacekeeping, and transitional justice. I am also part of the Human Rights Measurement Initiative (HRMI), where I focus on measurement questions in political science and work with a team that produces annual data on civil and political rights.
 
 
 
